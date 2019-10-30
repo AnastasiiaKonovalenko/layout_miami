@@ -1,0 +1,29 @@
+.section {
+  padding: 100px calc(50% - 470px); }
+  .section__heading--gallery {
+    bottom: calc(126px);
+    left: calc(50% - 97px); }
+  .section__heading--consultation {
+    bottom: calc(126px);
+    left: calc(50% - 170px); }
+  .section__heading--testimonials {
+    bottom: calc(126px);
+    left: calc(50% - 162px); }
+  .section__heading--contacts {
+    bottom: calc(126px);
+    left: calc(50% - 141px); }
+
+.section:first-child,
+.section:nth-child(3),
+.section:nth-child(5) {
+  background-color: #fff; }
+
+@media screen and (max-width: 999px) {
+  .section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 100px 40px; } }
+
+/*# sourceMappingURL=section.css.map */

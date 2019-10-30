@@ -18,7 +18,7 @@
     line-height: 1.25;
     padding-bottom: 24px; }
   .consultation__info {
-    width: 480px; }
+    max-width: 480px; }
 
 @media screen and (max-width: 999px) {
   .consultation {
@@ -30,9 +30,7 @@
         -ms-flex-align: center;
             align-items: center;
     justify-items: center; }
-  .consultation__info {
-    padding-bottom: 40px; }
-  .consultation__heading {
-    text-align: center; } }
+    .consultation__info {
+      padding-bottom: 40px; } }
 
 /*# sourceMappingURL=consultation.css.map */

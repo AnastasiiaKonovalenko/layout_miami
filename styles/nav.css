@@ -22,7 +22,9 @@
     color: white;
     text-decoration: none;
     -webkit-transition: color 0.2s;
-    transition: color 0.2s; }
+    transition: color 0.2s;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s; }
     .nav__link:hover {
       cursor: pointer;
       color: #d5c5aa; }

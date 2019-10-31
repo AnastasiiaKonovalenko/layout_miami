@@ -50,8 +50,7 @@
     padding-top: 24px;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    resize: none;
-    margin-bottom: 3px; }
+    resize: none; }
   .form__button {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -62,7 +61,11 @@
     background-color: #00aaef;
     color: #fff;
     border: none;
-    cursor: pointer; }
+    cursor: pointer;
+    -webkit-transition: background-color;
+    transition: background-color;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s; }
     .form__button:hover {
       background-color: #0050ff; }
 

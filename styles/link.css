@@ -1,0 +1,12 @@
+.link {
+  text-decoration: none;
+  color: #0af;
+  font-weight: 400;
+  -webkit-transition: color;
+  transition: color;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s; }
+  .link:hover {
+    color: #0050ff; }
+
+/*# sourceMappingURL=link.css.map */

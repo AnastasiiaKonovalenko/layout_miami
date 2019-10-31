@@ -17,4 +17,8 @@
   .footer__logo {
     margin-top: 20%; }
 
+@media screen and (max-width: 999px) {
+  .footer {
+    height: 200px; } }
+
 /*# sourceMappingURL=footer.css.map */
